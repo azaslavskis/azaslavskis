@@ -1,75 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>azaslavskis</title>
-    <link href="https://cdn.jsdelivr.net/npm/beercss@3.7.10/dist/cdn/beer.min.css" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Alex Zaslavskis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.7.10/dist/cdn/beer.min.js"></script>
-    
-    <script type="module" src="https://cdn.jsdelivr.net/npm/material-dynamic-colors@1.1.2/dist/cdn/material-dynamic-colors.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.css" integrity="sha512-8BU3emz11z9iF75b10oPjjpamM4Mz23yQFQymbtwyPN3mNWHxpgeqyrYnkIUP6A8KyAj5k2p3MiYLtYqew7gIw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="./scripts.js"></script>
-    <link href="./styles.css" rel="stylesheet"></link>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="./styles.css" />
+
+
+
+
 </head>
+
 <body>
-    <nav class="left drawer">
-        <a >
-          <i>info</i>
-          <div>About me</div>
-        </a>
-  
-    </nav>
-    
+    <div class="page">
+        <!-- Top bar -->
+        <header class="site-header">
+            <div class="logo">
+                <div class="logo-mark">AZ</div>
+                <div class="logo-text">
+                    <span>Alex Zaslavskis</span>
+                    <span>Software & Embedded Developer</span>
+                </div>
+            </div>
 
 
-    <div class="about_me" id="about_me">
-        <b>Hello my name <strong>Alex</strong></b>
-     
-        <p>I am passionate about creating innovative software and find it deeply rewarding.</p>
-        <img src="https://avatars.githubusercontent.com/u/20460747?v=4"></img>
-        <h2>Skills:</h2>
-      
-        <ul>
-            <li>
-                I have extensive experience in <strong>C programming</strong>, particularly in embedded systems such as microcontrollers and embedded Linux environments. 
-                A key example of my work in this area is my project, <em>PielectricsEagles</em>, as well as <em>MeteoStation</em>, both written in C.
-            </li>
-            <li>
-                My primary language for developing desktop software is <strong>Rust</strong>, where I have created several projects, including <em>VideoEdit-Long-Files</em>, 
-                a tool designed for handling large video files efficiently.
-            </li>
-            <li>
-                Additionally, I have worked with <strong>C#</strong>, developing applications for the Windows operating system. 
-                Notable examples include <em>Wifi_Connect_Tool</em>, which facilitates wireless network connections, and <em>Console_Panel_Software</em>, another C# project.
-            </li>
-            <li>
-                I also use <strong>Python</strong> for automating routine tasks. For example, I’ve written scripts like <em>convert_birthdays</em> 
-                (which converts contacts and Instagram messages into a birthday list) and <em>grepper_py</em> 
-                (a tool that allows me to find coding solutions directly from the terminal).
-            </li>
-        </ul>
-    
-        <h2>Current Studies:</h2>
-        <ul>
-            <li><strong>Artificial Intelligence</strong> using Python</li>
-            <li><strong>Rust</strong> (continuing to deepen my expertise)</li>
-            <li><strong>CH32 microcontrollers</strong></li>
-        </ul>
-    
-        <h2>Favorite Operating Systems:</h2>
-        <ul>
-            <li><strong>Windows XP</strong></li>
-            <li><strong>RebornOS</strong></li>
-            <li><strong>Fedora 40</strong></li>
-        </ul>
-    
-        <p><strong>Laptop:</strong> Lenovo ThinkPad E16 Gen 1</p>
-        <p><strong>#StandWithUkraine</strong></p>
+        </header>
+
+        <!-- Hero -->
+        <section class="hero" id="top">
+            <div class="hero-main">
+                <div class="hero-tag">
+                    <i class="fa-solid fa-microchip"></i>
+                    Embedded & desktop software
+                </div>
+
+                <h1>
+                    Hi, I’m <strong>Alex</strong> — I like building
+                    reliable software that actually ships.
+                </h1>
+                Graduate Electronics and Computer Engineering student aspiring to excel in avionics and space
+                technologies. Main focused in Embbeded Hardware and Software design.
+                <p class="hero-subtitle">
+
+                </p>
+
+
+
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#skills">
+                        <i class="fa-solid fa-bolt"></i>
+                        View my skills
+                    </a>
+                    <a class="btn btn-ghost" href="https://github.com/azaslavskis" target="_blank" rel="noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub profile
+                    </a>
+
+                    <a class="btn btn-ghost"
+                        href="https://drive.google.com/file/d/1We1cfJCgAct1_-B9bkT_iNz2-bylWgIz/view?usp=sharing"
+                        target="_blank" rel="noreferrer">
+                        <i class="fa-regular fa-file"></i>
+                        CV
+                    </a>
+                </div>
+            </div>
+
+            <aside class="hero-aside">
+                <div class="avatar-wrapper">
+                    <div class="avatar-ring">
+                        <img class="avatar" src="https://avatars.githubusercontent.com/u/20460747?v=4"
+                            alt="Alex avatar" />
+                    </div>
+                </div>
+                <h2> Software and Hardware Designer</h2>
+                <p>
+                    Focused on microcontrollers, embedded Linux, and tooling for working with large video
+                    files and day-to-day automation.
+                </p>
+                <div class="pill-row">
+                    <span class="pill">STM32/ESP32/AVR MCU</span>
+                    <span class="pill">KiCad/Altium Designer</span>
+                    <span class="pill">C# on Windows</span>
+                    <span class="pill">Python scripts</span>
+                    <span class="pill">SMD soldering up to 0402</span>
+                    <span class="pill">Fusion 360 / Solidworks 3D design</span>
+                </div>
+
+                <div class="ukraine-flag">
+                    <div>We support Ukraine</div>
+                    <div>#StandWithUkraine</div>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Skills & Projects -->
+        <section class="section-grid" id="skills">
+            <article class="card">
+                <div class="subtle-label">Stack</div>
+                <h3>What I work with</h3>
+                <ul>
+                    <li>
+                        <strong>Electronics & PCB Design</strong> – My primary focus is hardware design using
+                        <em>KiCad</em> and <em>Altium Designer</em>. I design custom PCBs, develop embedded hardware,
+                        and create complete electronics solutions from concept to prototype.
+                    </li>
+                    <li>
+                        <strong>Embedded Systems & Linux</strong> – Developing low-level software and firmware for
+                        microcontrollers and embedded platforms. Experienced with <em>Embedded Linux</em> build systems
+                        such as <em>Yocto</em> and <em>Buildroot</em>, including system configuration, optimization,
+                        and integration with custom hardware.
+                    </li>
+                    <li>
+                        <strong>AI Integration</strong> – Leveraging modern AI tools to automate workflows, assist in
+                        development, and accelerate both hardware and software design processes.
+                    </li>
+                    <li>
+                        <strong>3D Modeling & Fabrication</strong> – Designing mechanical parts in
+                        <em>Fusion 360</em> and <em>SolidWorks</em>, including enclosures and prototypes for 3D
+                        printing.
+                    </li>
+                </ul>
+            </article>
+
+            <article class="card" id="studies">
+                <div class="subtle-label">Currently learning</div>
+                <h3>What I’m studying now</h3>
+                <p>
+                    I like to keep my tools sharp. Right now I’m pushing deeper into:
+                </p>
+                <div class="badge-row">
+                    <span class="badge"><i class="fa-solid fa-brain"></i> Yolo DeepLearing</span>
+                    <span class="badge"><i class="fa-brands fa-rust"></i> STM32 Register programming</span>
+                    <span class="badge"><i class="fa-solid fa-microchip"></i> Linux Boards PCB design</span>
+                </div>
+            </article>
+        </section>
+
+
+        <article class="card" id="contact">
+            <div class="subtle-label">Ping me</div>
+            <h3>Let’s build something</h3>
+            <p>
+                Interested in embedded work, tooling, or automation scripts?
+                You can reach out via GitHub or wire this page into your own contact flow.
+            </p>
+            <div class="badge-row">
+                <span class="badge"><i class="fa-solid fa-envelope"></i> zaslavskisaleksandrs@gmail.com</span>
+                <span class="badge"><i class="fa-solid fa-code"></i> Open to collabs</span>
+            </div>
+        </article>
+
+
+
+        </section>
+
+        <!-- PROJECT CAROUSEL -->
+        <section class="project-carousel-section">
+            <h2 class="carousel-title">Top Projects</h2>
+
+            <div class="carousel-wrapper">
+                <button class="carousel-btn left" id="carouselPrev">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="carousel" id="carousel">
+
+                    <!-- PROJECT CARD 1 -->
+                    <div class="carousel-item">
+                        <img src="https://private-user-images.githubusercontent.com/20460747/391566604-ace5ed26-4013-484a-8079-e882eb7c22a7.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjMzOTk2NjksIm5iZiI6MTc2MzM5OTM2OSwicGF0aCI6Ii8yMDQ2MDc0Ny8zOTE1NjY2MDQtYWNlNWVkMjYtNDAxMy00ODRhLTgwNzktZTg4MmViN2MyMmE3LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMTclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTE3VDE3MDkyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTc2YzJlN2FmYTZkM2ZmMmZlNWY3MDRhZDJiMzdiOTI1YjNlM2IxNDYxMDhkN2NmNGNmNGQ3YTg4NWRiYTc0ZTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.fjVaF7wBi4Kxmq21cVJKjg6h9m1jWx9232_0F2zSufY"
+                            alt="PielectricsEagles">
+                        <div class="carousel-caption">
+                            <h3>WLED Controller</h3>
+                            <p>An ESP32-S3–based WLED LED controller. The main focus of this project was designing and
+                                creating the PCB. </p>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT CARD 2 -->
+                    <div class="carousel-item">
+
+                        <div class="carousel-caption">
+                            <h3>VideoEdit-Long-Files</h3>
+                            <p>VoiceRecogniseBot is a modern, cross-platform voice recognition tool built using C# and
+                                Whisper. It features an intuitive CLI, easy configuration via JSON, and robust AppImage
+                                support for hassle-free deployment.</p>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT CARD 3 -->
+                    <div class="carousel-item">
+                        <img src="https://github.com/mgropp/pdfjumbler/raw/master/screenshots/screenshot01.png"
+                            alt="Wifi Tool">
+                        <div class="carousel-caption">
+                            <h3>Installer script for pdf-jumbler</h3>
+                            <p>Simple script that will allow to easy way of installing pdf-jumbler on Debian based OS
+                            </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <button class="carousel-btn right" id="carouselNext">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
     </div>
+
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-left">
+            <span>© <span id="year"></span> Alex Zaslavskis</span>
+
+        </div>
+        <div class="footer-right">
+            <a href="https://github.com/azaslavskis" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noreferrer">
+                <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+        </div>
+    </footer>
+
+    <script>
+        // Set current year in footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
-
-
 
 </html>
