@@ -1,34 +1,33 @@
-### Hello my name is Alex
+### Hello, my name is Alex
 
-Website : [https://azaslavskis.github.io/azaslavskis/](https://azaslavskis.github.io/azaslavskis/) \
-Making amazing software is make fun for me.
-# Skils:
-1. Had experience in C and been programming embbeded systems such as microcontrollers and Embbeded Linux systems. As example is main project [pielectricseagles](https://github.com/Electrics-Eagles/PiElectricsEagles-dev/) or [metiostation c code](https://github.com/alex5250/metiostation-code)
-2. Also i had been using Rust for my primary language for writting software that runs on personal computer. My project  VideoEdit-Long-Files can bee good example of it.  
-3. Moreover I had been programming on C# and written few apps for Windows operation system: [Wifi_Connect_Tool](https://github.com/alex5250/Wifi_Connect_Tool) Wifi_Connect_Tool is and good example. Also other good example is : [console_panel_software](https://github.com/alex5250/console_panel_software) that also written in C#   
-4. Moreover I use Python for automate basic everydays tasks such as convert contacts and instagram messages in birthday list [convert_birthdays](https://github.com/alex5250/convert_birthdays) and [grepper_py](https://github.com/alex5250/grepper_py) that allow me to found solutions to coding questions from terminal grepper_py  
+Website: https://azaslavskis.github.io/azaslavskis/  
 
- 
+I’m a Graduate Electronics and Computer Engineering student aiming to grow in avionics and space technologies.  
+My main focus is **embedded hardware and software design** — from custom PCBs to low-level firmware and tools that actually get used.
 
+# Skills
 
+1. **Electronics & PCB Design** – Designing custom boards in **KiCad** and **Altium Designer**, including Linux-capable boards. I enjoy taking a design from schematic to finished PCB and prototype.
 
- 
+2. **Embedded Systems & C** – Working with **STM32 / ESP32 / AVR** microcontrollers, bare-metal and register-level programming, and **Embedded Linux** using **Yocto** and **Buildroot**.
 
+3. **Desktop & Tools Development** – Building utilities and tooling in **Rust** and **C# on Windows**, especially for tasks like working with large video files or controlling hardware.
 
-Currently study:
-- AI on Python
-- Rust
-- CH32 microcontroller
+4. **Python & Automation** – Writing Python scripts to automate everyday tasks, glue systems together, and speed up development workflows.
 
+5. **3D Modeling & Fabrication** – Creating enclosures and mechanical parts in **Fusion 360** and **SolidWorks**, and turning them into real parts with **3D printing**. Comfortable with **SMD soldering down to 0402**.
 
+6. **AI Integration** – Exploring how to use AI for deep learning (e.g. YOLO), automation, and smarter tooling around embedded systems and hardware design.
 
+---
 
+## Currently studying
 
-Favorite OS : Windows XP / RebornOS / Fedora 40 
-Laptop: Lenovo Thinkpad E16 Gen 1
+- YOLO-based deep learning in Python  
+- STM32 register-level programming  
+- Linux board PCB design  
 
-
-
+**Favorite OS:** Windows XP / RebornOS / Fedora 40  
+**Laptop:** Lenovo ThinkPad E16 Gen 1  
 
 #StandWithUkraine
-
