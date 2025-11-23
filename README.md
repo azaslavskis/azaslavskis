@@ -21,13 +21,14 @@ My main focus is **embedded hardware and software design** — from custom PCBs 
 
 ---
 
-## Currently studying
+# Other and Interpersonal Skills
+1. Teamwork — I’m able to work effectively in both collaborative and independent settings. I facilitate clear and efficient communication among team members in the workplace.
+2. Written Documentation — I can prepare written documentation and draft technical specifications for developing electronic prototypes.
 
+# Currently study
 - YOLO-based deep learning in Python  
 - STM32 register-level programming  
 - Linux board PCB design  
 
-**Favorite OS:** Windows XP / RebornOS / Fedora 40  
-**Laptop:** Lenovo ThinkPad E16 Gen 1  
 
-#StandWithUkraine
+
