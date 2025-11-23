@@ -24,6 +24,7 @@ My main focus is **embedded hardware and software design** — from custom PCBs 
 # Other and Interpersonal Skills
 1. Teamwork — I’m able to work effectively in both collaborative and independent settings. I facilitate clear and efficient communication among team members in the workplace.
 2. Written Documentation — I can prepare written documentation and draft technical specifications for developing electronic prototypes.
+3. FPV skilled pilot
 
 # Currently study
 - YOLO-based deep learning in Python  
