@@ -5,9 +5,17 @@ Website: https://azaslavskis.github.io/azaslavskis/
 I’m a Graduate Electronics and Computer Engineering student aiming to grow in avionics and space technologies.  
 My main focus is **embedded hardware and software design** — from custom PCBs to low-level firmware and tools that actually get used.
 
+I am actively looking for **graduate or junior roles** in electronics, embedded systems, PCB design, firmware, hardware bring-up, test, or validation.
+
+# Good fit for
+
+- Recruiters hiring for graduate / junior embedded hardware and firmware roles
+- Engineering teams looking for someone comfortable with both boards and code
+- Projects involving PCB design, microcontrollers, prototype bring-up, documentation, and practical debugging
+
 # Skills
 
-1. **Electronics & PCB Design** – Designing custom boards in **KiCad** and **Altium Designer**, including Linux-capable boards. I enjoy taking a design from schematic to finished PCB and prototype.
+1. **Electronics & PCB Design** – Designing custom boards in **KiCad** and **Altium Designer**. I enjoy taking a design from schematic to finished PCB and prototype.
 
 2. **Embedded Systems & C** – Working with **STM32 / ESP32 / AVR** microcontrollers, bare-metal and register-level programming, and **Embedded Linux** using **Yocto** and **Buildroot**.
 
@@ -29,7 +37,7 @@ My main focus is **embedded hardware and software design** — from custom PCBs 
 # Currently study
 - YOLO-based deep learning in Python  
 - STM32 register-level programming  
-- Linux board PCB design  
+- Embedded Linux basics  
 
 
 
