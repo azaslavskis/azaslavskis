@@ -11,7 +11,7 @@ I am actively looking for **graduate or junior roles** in electronics, embedded 
 
 - Recruiters hiring for graduate / junior embedded hardware and firmware roles
 - Engineering teams looking for someone comfortable with both boards and code
-- Projects involving PCB design, microcontrollers, prototype bring-up, documentation, and practical debugging
+- Roles involving PCB design, microcontrollers, hardware bring-up, documentation, and practical debugging
 
 # Skills
 
